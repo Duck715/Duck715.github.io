@@ -4,74 +4,38 @@
     <meta charset="UTF-8">
     <title>DuckDev</title>
     <style>
-        body {
+        .title {
             text-align: center;
         }
-        .title {
-            width: 100%;
-            font-size: 180%;
-            color: cornflowerblue;
+        .maintitke {
             position: absolute;
+            z-index: 9999;
+            width: 100%;
+            color: cornflowerblue;
+            font-size: 300%;
             top: 10%;
         }
-        .about {
-            width: 135%;
-            font-size: 120%;
-            color: royalblue;
-            position: absolute;
-            top: 60%;
-        }
-        .abouttext {
-            width: 140%;
-            font-size: 80%;
-            color: rgb(115, 145, 234);
-            position: absolute;
-            top: 65%;
-        }
-        .button {
-            width: 30%;
-            height: 5%;
-            font-size: 100%;
-            background-color: deepskyblue;
-            color: rgb(0, 82, 145);
-            position: absolute;
-            border-radius: 7px;
-            left: 55%;
-            top: 80%;
-        }
-        .button:hover {
-            width: 30%;
-            height: 5%;
-            font-size: 100%;
-            background-color: rgb(0, 158, 210);
-            color: rgb(0, 57, 100);
-            position: absolute;
-            border-radius: 7px;
-            left: 55%;
-            top: 80%;
-        }
         .img {
-            width: 80%;
             position: absolute;
-            opacity: 1;
-            left: 10%;
-            top: 15%;
+            width: 100%;
+            left: 0%;
+            top: 20%;
         }
-        .img2 {
-            width: 80%;
+        .aboutdev {
             position: absolute;
-            opacity: 1;
-            left: -5%;
-            top: 60%;
+            z-index: 9999;
+            width: 100%;
+            color: deepskyblue;
+            font-size: 120%;
+            top: 25%;
         }
     </style>
 </head>
 <body>
-    <img class="img" src="https://duck715.github.io/duck.webp">
-    <img class="img2" src="https://duck715.github.io/duck2.jpg">
-    <h1 class="title">DuckDev💻🦆</h1>
-    <h1 class="about">关于本站</h1>
-    <h2 class="abouttext">这是呱呱呱呱的测试网站<br>请通过点击下面的<br>按钮参加测试</h2>
-    <a href="http://baidu.com"><button class="button">点击我</button></a>
+    <div class="title">
+        <h1 class="maintitke">DuckDev💻🦆</h1>
+        <img class="img" src="https://duck715.github.io/duck.webp">
+        <h2 class="aboutdev">鸭子的网站</h2>
+    </div>
 </body>
 </html>
